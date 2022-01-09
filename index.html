@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman App | Hanie Ja'fari</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class=" textCenter heading">The Hangman</h1>
+        <div class="rightResult">Wrong Guesses : <span id="mistakes"> 0 </span> of <span id="maxWrong"> </span></div>
+        <div class="textCenter">
+            <img id="hangmanPic" src="images/0.jpg" alt="Hangman">
+            <p class="paragraph">Guess the Programming Language</p>
+            <p id="spot"></p>
+            <div id="keyboard"></div>
+            <button class="reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <script src="js/hangman.js"></script>
+</body>
+
+</html>
